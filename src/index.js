@@ -1,11 +1,11 @@
-const http = require('http');
-const PORT = process.env.PORT || 3000;
+#!/usr/bin/env node
 
-const server = http.createServer((req, res) => {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello from KARTYOM3248 Node.js app\n');
-});
+function main() {
+  console.log('Hello from KARTYOM3248 — Node.js project skeleton!');
+}
 
-server.listen(PORT, () => {
-  console.log(`Server listening on http://localhost:${PORT}`);
-});
+if (require.main === module) {
+  main();
+}
+
+module.exports = { main };

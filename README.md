@@ -1,30 +1,3 @@
-# KARTYOM3248 — Node.js project skeleton
-
-This repository now contains a minimal **Node.js** project skeleton to get started quickly.
-
-## 🔧 Что в проекте
-- **package.json** — basic scripts (`start`, `dev`, `test`)
-- **src/index.js** — минимальный HTTP-сервер
-- **.gitignore** — стандартные правила для Node.js
-
-## 🚀 Быстрый старт
-```bash
-# установить зависимости (если добавите пакеты в package.json)
-npm install
-
-# запустить приложение
-npm start
-
-# запустить в режиме разработки
-npm run dev
-```
-
-Приложение слушает порт `3000` по умолчанию (или `process.env.PORT`).
-
----
-
-<!-- Сохранённый оригинал README ниже -->
-
 ## Hi there 👋
 
 <!--
@@ -47,7 +20,7 @@ I'm working on **COCOON Worker** - a distributed AI model serving platform on TO
 
 ### COCOON Worker
 
-Run a COCOON worker to earn TON by serving AI models securely with Intel TDX and NVIDIA H100+ GPU confidential computing.
+Run a COCOON worker to earn TON by serving AI models securely with Intel TDX and NVIDIA GPU confidential computing.
 
 **Key Features:**
 - Secure TEE-based AI model inference
@@ -69,5 +42,21 @@ cp worker.conf.example worker.conf
 - Hugging Face token for model access
 
 **Learn more:** See the full [COCOON Worker documentation](https://cocoon.org/docs/worker) for setup, configuration, and monitoring.
-package.json\рабочие области\KARTYOM3248
-12
+
+---
+
+## 🧩 Node.js project (скелет)
+
+В этом репозитории добавлен минимальный шаблон Node.js проекта.
+
+- Запустить: `npm install` (при наличии зависимостей), затем `npm start`
+- Входная точка: `src/index.js` (экспорт функции `main`)
+
+Примеры:
+```bash
+npm start
+```
+
+---
+
+*Добавлены: `package.json`, `.gitignore`, `src/index.js`*
